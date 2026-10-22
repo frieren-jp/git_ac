@@ -1,0 +1,14 @@
+{
+  "name": "git-ac-lab",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Учебный Node.js-проект для проверки CI",
+  "scripts": {
+    "start": "node index.js",
+    "lint": "eslint . --max-warnings 0",
+    "test": "node --test"
+  },
+  "devDependencies": {
+    "eslint": "8.57.1"
+  }
+}
